@@ -39,31 +39,7 @@ export function ScrollHeader() {
 						<span className="text-xl font-bold">Tutr</span>
 					</Link>
 
-					<div className="hidden md:flex items-center space-x-8">
-						<Link
-							href="/features"
-							className="transition-colors text-muted-foreground hover:text-foreground"
-						>
-							Features
-						</Link>
-						<Link
-							href="/pricing"
-							className="transition-colors text-muted-foreground hover:text-foreground"
-						>
-							Pricing
-						</Link>
-						<Link
-							href="/about"
-							className="transition-colors text-muted-foreground hover:text-foreground"
-						>
-							About
-						</Link>
-						<Link
-							href="/blog"
-							className="transition-colors text-muted-foreground hover:text-foreground"
-						>
-							Blog
-						</Link>
+					<div className="hidden md:flex items-center space-x-2">
 						<ThemeToggle />
 						<Button
 							variant="outline"
